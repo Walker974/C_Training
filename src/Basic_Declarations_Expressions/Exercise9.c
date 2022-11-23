@@ -7,7 +7,7 @@ int main() {
     int N;
     printf("Entrez la valeur de N:");
     scanf("%d", &N);
-    if (N < 1000){
+    if (N < 1000 || N > 9999) {
         printf("N ne comport pas 4 chiffres\n");
         return 0;
     }
