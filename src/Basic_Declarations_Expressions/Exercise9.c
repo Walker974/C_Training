@@ -4,7 +4,7 @@
 
 #include "stdio.h"
 int main() {
-    int N;int count;
+    int N;
     printf("Entrez la valeur de N:");
     scanf("%d", &N);
     if (N < 1000){
